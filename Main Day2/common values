@@ -1,0 +1,7 @@
+list1=["Saad","Sahad","Ali","Pranavu"]
+list2=["Arun","Sahad","Xaviour","Rishan"]
+set1=set(list1)
+set2=set(list2)
+set3=set1 & set2
+list3=list(set3)
+print("common is ",list3)
